@@ -1,4 +1,112 @@
-pl<!doctype html>
+<!doctype html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Marianne — Great Abysmal</title>
+<meta name="description" content="Librarian, writer, systems thinker. Projects, writing, and contact." />
+<link rel="preload" href="styles.css" as="style" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∿</text></svg>">
+<meta property="og:title" content="Marianne — GreatAbysmal" />
+<meta property="og:description" content="Projects, writing, photography, and contact." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://greatabysmal.github.io/" />
+<meta name="theme-color" content="#0e0f14" />
+</head>
+<body>
+<!-- NAV -->
+<header class="site-head">
+<a class="brand" href="#top" aria-label="Home">
+<svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19l8-14 8 14H4z"/></svg>
+<span>Great Abysmal</span>
+</a>
+<nav class="nav" aria-label="Primary">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#writing">Writing</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+
+<!-- HERO with terminal prompt -->
+<section class="hero" id="top">
+<div class="terminal" role="region" aria-label="intro terminal">
+<div class="line">~/<span class="accent">home/marianne</span> 〉<span class="cmd" data-type="cat about.md"></span></div>
+<pre class="about-pre" aria-live="polite">
+Hi, I'm Marianne. I'm a librarian, writer, and systems thinker.
+I care about good infrastructure: of libraries, of cities, of code,
+and of care. This is my little index: projects, notes, and ways to reach me.
+</pre>
+<div class="actions">
+<a class="chip" href="#projects">〉 ls ./projects</a>
+<a class="chip" href="#writing">〉 open ./writing</a>
+<a class="chip" href="#contact">〉 mail ./contact</a>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS (grid of cards with subtle terminal cues) -->
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="section-head">
+    <h2 id="projects-title">Projects</h2>
+    <a class="mini-cmd" href="#projects">〉 cd ./projects</a>
+  </div>
+  <div class="grid cards">
+
+    <!-- Card 1 -->
+    <article class="card">
+      <a class="card-media" href="#" aria-label="Project link">
+        <div class="media ph" data-fallback="cover-1.jpg" aria-hidden="true"></div>
+      </a>
+      <div class="card-body">
+        <h3 class="card-title">Project Alpha</h3>
+        <p class="card-text">An experimental app exploring clean design and lightweight interactivity.</p>
+        <div class="card-actions">
+          <a class="chip" href="#">〉 open ./demo</a>
+          <a class="chip" href="https://github.com/greatabysmal" rel="me">〉 src ./github</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="card">
+      <a class="card-media" href="#" aria-label="Project link">
+        <div class="media ph" data-fallback="cover-2.jpg" aria-hidden="true"></div>
+      </a>
+      <div class="card-body">
+        <h3 class="card-title">Project Beta</h3>
+        <p class="card-text">A collaborative concept blending narrative, design, and playful interfaces.</p>
+        <div class="card-actions">
+          <a class="chip" href="#">〉 read ./concept</a>
+          <a class="chip" href="#">〉 notes ./outline</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="card">
+      <a class="card-media" href="#" aria-label="Project link">
+        <div class="media ph" data-fallback="cover-3.jpg" aria-hidden="true"></div>
+      </a>
+      <div class="card-body">
+        <h3 class="card-title">Project Gamma</h3>
+        <p class="card-text">A short essay and presentation series on creative process and design thinking.</p>
+        <div class="card-actions">
+          <a class="chip" href="#">〉 read ./essay</a>
+          <a class="chip" href="#">〉 slides ./talk</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- WRITING (Ændra-style featured posts) -->
+<!doctype html>
 <h2 id="writing-title">Featured writing</h2>
 <a class="mini-cmd" href="#writing">〉 open ./writing</a>
 </div>
