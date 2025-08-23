@@ -30,7 +30,7 @@ a:hover{color:var(--accent)}
   border-bottom: 1px solid #1e2130;
 }
 .brand{display:flex; gap:10px; align-items:center; font-weight:600}
-.logo{width:22px; height:22px; fill:var(--accent)}
+.logo { width:22px; height:22px; }
 .logo text { fill:#e3e6f6; font-weight:700; }
 .nav{display:flex; gap:18px; font-weight:500}
 .nav a{opacity:.85}
